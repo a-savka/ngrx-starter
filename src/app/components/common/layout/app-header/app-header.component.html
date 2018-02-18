@@ -1,0 +1,13 @@
+
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>Test Application</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <nav mat-tab-nav-bar>
+      <a mat-tab-link routerLink="/landing" routerLinkActive #rla1="routerLinkActive" [active]="rla1.isActive">
+        Landing
+      </a>
+    </nav>
+  </mat-toolbar-row>
+</mat-toolbar>
